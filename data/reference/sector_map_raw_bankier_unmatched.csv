@@ -1,0 +1,57 @@
+isin,ticker,company_name,macrosector,sector,industry,sector_industry,ticker_bankier,isin_bankier,source,source_url,fetched_at,match_status
+PL4FNMD00013,4FUNMEDIA,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/4FUNMEDIA/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLATTFI00018,ALTUSTFI,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/ALTUSTFI/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+EE3100063686,ATLANTIS,Atlantis SE,finanse,działalność inwestycyjna,działalność inwestycyjna,działalność inwestycyjna/działalność inwestycyjna,ATS,EE0000000552,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/ATLANTIS/podstawowe-dane,2026-05-13T22:13:35+00:00,isin_mismatch
+EE3100143090,ATLANTIS,Atlantis SE,finanse,działalność inwestycyjna,działalność inwestycyjna,działalność inwestycyjna/działalność inwestycyjna,ATS,EE0000000552,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/ATLANTIS/podstawowe-dane,2026-05-13T22:13:35+00:00,isin_mismatch
+EE3100150319,ATLANTIS,Atlantis SE,finanse,działalność inwestycyjna,działalność inwestycyjna,działalność inwestycyjna/działalność inwestycyjna,ATS,EE0000000552,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/ATLANTIS/podstawowe-dane,2026-05-13T22:13:35+00:00,isin_mismatch
+LT0000127466,AUGA,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/AUGA/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLECBDZ00013,BEDZIN,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/BEDZIN/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLBMDLB00018,BIOMEDLUB,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/BIOMEDLUB/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLCPPRK00037,CPGROUP,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/CPGROUP/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+EE3100152257,ELKOP,Elkop Estonia SE,finanse,nieruchomości,wynajem nieruchomości,nieruchomości/wynajem nieruchomości,EKP,EE0000000453,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/ELKOP/podstawowe-dane,2026-05-13T22:13:35+00:00,isin_mismatch
+PLELKOP00013,ELKOP,Elkop Estonia SE,finanse,nieruchomości,wynajem nieruchomości,nieruchomości/wynajem nieruchomości,EKP,EE0000000453,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/ELKOP/podstawowe-dane,2026-05-13T22:13:35+00:00,isin_mismatch
+PLFAMUR00012,FAMUR,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/FAMUR/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+EE3100005166,FON,Fon SE,finanse,pośrednictwo finansowe,pośrednictwo finansowe,pośrednictwo finansowe/pośrednictwo finansowe,FON,EE0000002897,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/FON/podstawowe-dane,2026-05-13T22:13:35+00:00,isin_mismatch
+EE3100100835,FON,Fon SE,finanse,pośrednictwo finansowe,pośrednictwo finansowe,pośrednictwo finansowe/pośrednictwo finansowe,FON,EE0000002897,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/FON/podstawowe-dane,2026-05-13T22:13:35+00:00,isin_mismatch
+EE3100150301,FON,Fon SE,finanse,pośrednictwo finansowe,pośrednictwo finansowe,pośrednictwo finansowe/pośrednictwo finansowe,FON,EE0000002897,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/FON/podstawowe-dane,2026-05-13T22:13:35+00:00,isin_mismatch
+PLGETBK00012,GETINOBLE,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/GETINOBLE/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLGLBLC00011,GLCOSMED,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/GLCOSMED/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLINTGR00013,GROCLIN,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/GROCLIN/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+US44853H1086,HUUUGE-S144,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/HUUUGE-S144/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+EE3100042821,IFCAPITAL,Investment Friends Capital SE,finanse,pośrednictwo finansowe,pośrednictwo finansowe,pośrednictwo finansowe/pośrednictwo finansowe,IFC,EE3100149154,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/IFCAPITAL/podstawowe-dane,2026-05-13T22:13:35+00:00,isin_mismatch
+EE3100065392,IFCAPITAL,Investment Friends Capital SE,finanse,pośrednictwo finansowe,pośrednictwo finansowe,pośrednictwo finansowe/pośrednictwo finansowe,IFC,EE3100149154,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/IFCAPITAL/podstawowe-dane,2026-05-13T22:13:35+00:00,isin_mismatch
+EE3100143033,IFSA,Investment Friends SE,finanse,pośrednictwo finansowe,pośrednictwo finansowe,pośrednictwo finansowe/pośrednictwo finansowe,IFR,EE3100099391,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/IFSA/podstawowe-dane,2026-05-13T22:13:35+00:00,isin_mismatch
+AT0000A21KS2,IIAAV,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/IIAAV/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLNFI0700018,IMPERA,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/IMPERA/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLINTFR00023,INTERFERI,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/INTERFERI/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLECMNG00019,INVISTA,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/INVISTA/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLJRINV00013,JRHOLDING,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/JRHOLDING/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLK2ITR00010,K2HOLDING,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/K2HOLDING/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLKRNRC00012,KREC,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/KREC/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+SI0031102120,KRKA,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/KRKA/podstawowe-dane,2026-05-13T22:13:35+00:00,http_500
+PLLVTSF00010,LIVECHAT,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/LIVECHAT/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLMSTPH00016,MASTERPHA,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/MASTERPHA/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLEMLAB00018,MEDIACAP,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/MEDIACAP/podstawowe-dane,2026-05-13T22:13:35+00:00,http_500
+PLMRCOR00016,MERCOR,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/MERCOR/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLNEPTS00011,NEPTIS,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/NEPTIS/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLONCTH00011,OAT,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/OAT/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLPMPOL00031,PAMAPOL,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/PAMAPOL/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLPBKM000012,PBKM,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/PBKM/podstawowe-dane,2026-05-13T22:13:35+00:00,http_500
+PLPREQM00011,PEMANAGER,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/PEMANAGER/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLSFTWR00015,PGSSOFT,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/PGSSOFT/podstawowe-dane,2026-05-13T22:13:35+00:00,http_500
+PLADDRG00015,PLATYNINW,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/PLATYNINW/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLPZBDT00013,POZBUD,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/POZBUD/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+AU000000PDZ2,PRAIRIE,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/PRAIRIE/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLPROJP00018,PROJPRZEM,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/PROJPRZEM/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+GB00B1YKG049,PROVIDENT,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/PROVIDENT/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLIQPRT00017,PUNKPIRAT,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/PUNKPIRAT/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLR220000018,R22,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/R22/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+EE3100142985,RESBUD,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/RESBUD/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLRESBD00032,RESBUD,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/RESBUD/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLBZ00000044,SANPL,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/SANPL/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+JE00BF4N9R98,SERINUS,Serinus Energy Ltd.,paliwa i energia,paliwa i gaz,wydobycie i produkcja,paliwa i gaz/wydobycie i produkcja,SEN,JE00BNNMKT29,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/SERINUS/podstawowe-dane,2026-05-13T22:13:35+00:00,isin_mismatch
+PLSKTAN00010,SKOTAN,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/SKOTAN/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLUNMST00014,UNIMA,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/UNIMA/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLVNTIN00011,VENTUREIN,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/VENTUREIN/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLVIGOS00015,VIGOSYS,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/VIGOSYS/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector
+PLWRKSR00019,WORKSERV,,,,,,,,Bankier.pl / Notoria,https://www.bankier.pl/gielda/notowania/akcje/WORKSERV/podstawowe-dane,2026-05-13T22:13:35+00:00,no_sector

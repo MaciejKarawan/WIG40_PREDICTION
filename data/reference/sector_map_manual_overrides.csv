@@ -1,0 +1,3 @@
+isin,ticker,company_name,macrosector,sector,industry,sector_industry,ticker_bankier,isin_bankier,source,source_url,match_status
+PLBZ00000044,SANPL,Santander Bank Polska SA,finanse,banki,banki komercyjne,banki/banki komercyjne,SANPL,PLBZ00000044,manual override,,manual_override
+SI0031102120,KRKA,Krka d.d.,ochrona zdrowia,produkcja leków,produkcja leków,produkcja leków/produkcja leków,KRKA,SI0031102120,manual override,,manual_override
