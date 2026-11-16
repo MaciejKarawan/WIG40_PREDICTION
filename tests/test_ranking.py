@@ -3,7 +3,7 @@ import unittest
 import pandas as pd
 from mwig_replication import config
 from mwig_replication.ranking import compute_turnover_12m
-class MigrationChecks(unittest.TestCase):
+class ProjectTests(unittest.TestCase):
     def test_data_paths_still_resolve_from_root(self):
         root=Path(__file__).resolve().parents[1]
         self.assertEqual(config.PROJECT_ROOT,root)
