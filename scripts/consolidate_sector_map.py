@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/scripts/env python3
 """Consolidate raw sector scrape, ISIN-based aliases and manual overrides."""
 
 from __future__ import annotations

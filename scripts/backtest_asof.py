@@ -1,8 +1,8 @@
-#!/usr/bin/env python3
+#!/usr/scripts/env python3
 """Etapy C7 -> placebo -> koszty+survivorship -> OOS+outliery na panelu as-of.
 
 Wejscie:
-    output/asof/asof_rank_panel.parquet                (z bin/build_asof_rank_panel.py)
+    output/asof/asof_rank_panel.parquet                (z scripts/build_asof_rank_panel.py)
     output/eda_2021_2026_revision/wigeda_2021_2026_ohlcv.parquet
 
 Realizuje kolejnosc z reports/strategie_i_poprawny_backtest.md:

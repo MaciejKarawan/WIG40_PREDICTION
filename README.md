@@ -1,21 +1,19 @@
-# mWIG40 Index Inclusion Prediction
+# mWIG40 index inclusion research
 
-Research code for reconstructing GPW index rankings and studying changes in the mWIG40 composition. The repository name retains the original local project name; the target index is mWIG40.
+Install Python 3.11+ and `python -m pip install -e .`. The repository retains its historical WIG40_PREDICTION name; the target index is mWIG40.
 
-## Contents
+- `src/mwig_replication/`: active ranking, filtering, replication and prediction package.
+- `scripts/`: ingestion, validation, EDA and backtest entry points (`python -m scripts.<name>` from the root).
+- `data/`: input/reference snapshots; `notebooks/`: analysis notebooks.
+- `reports/`: research reports; `docs/`: project progress and data dependency map.
+- `archive/alternative_replication/`: distinct former Bin variants, preserved verbatim, not part of the active package.
+- `results/`: output policy. The established pipeline still writes to ignored `output/` to preserve existing calculations and file contracts.
 
-- `mwig_replication/`: ranking, eligibility filters, buffer rules, replication and prediction.
-- `bin/`: data ingestion, validation, exploratory analyses and backtests.
-- `notebooks/`: notebooks with execution outputs removed during import.
-- `reports/`: methodology, research history and limitations.
-- `data/`: selected reference/input files. Large OHLCV caches, downloaded PDFs, generated outputs and backups remain local.
+See [data preparation](docs/data-pipeline.md), [report reading order](reports/README.md) and [migration map](docs/file-migration.json).
+The former bin/ commands now live in scripts/. The package is installed from src/; repository-relative data paths are preserved. Set MWIG_BENCH_DIR for the benchmark input instead of depending on another local project.
 
-## Research status
+Exploratory research is not a validated trading strategy. Later reality checks revised earlier conclusions. No numerical experiments or data downloads are triggered by installation or package import. Dependency versions are declared but not frozen to the unknown historical environment.
 
-Exploratory results are not evidence of a validated trading strategy. The later reality check identified look-ahead contamination in an earlier long-lead backtest. Read `reports/sygnal_reality_check.md` and `reports/research_log.md` alongside earlier reports. External data and some paths referring to sibling projects must be configured before reproducing experiments.
+## Migration checks
 
-## Environment
-
-Python with NumPy, pandas, SciPy, matplotlib, seaborn, statsmodels, Plotly, requests, pdfplumber, pyarrow and nbformat. Versions are not frozen in this import. Inspect individual script arguments before running; data downloaders access external services.
-
-This import preserves research code and documents. Python syntax was checked; experiments and numerical results were not rerun.
+After installation: `python -m unittest discover -s tests -v`. These small checks do not run the full research experiments.

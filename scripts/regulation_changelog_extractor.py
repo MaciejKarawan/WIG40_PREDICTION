@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/scripts/env python3
 """
 GPW Benchmark — Ekstrakcja zmian z regulaminów
 ================================================

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/scripts/env python3
 """
 Ingest mWIG40 z CSV-ek (rewizje 2025-12-19 i 2026-03-20) do parquet.
 
@@ -8,7 +8,7 @@ Skrypt normalizuje 2 lekko różne schematy CSV, mapuje na PortfolioRow/ReserveR
 appenduje do output/wig_history/index_portfolios.parquet i reserve_lists.parquet.
 
 Uruchomienie:
-    .venv/Scripts/python.exe bin/ingest_mwig40_csv.py
+    .venv/Scripts/python.exe scripts/ingest_mwig40_csv.py
 """
 
 from __future__ import annotations
@@ -22,7 +22,7 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from bin.gpw_benchmark_scraper import (
+from scripts.gpw_benchmark_scraper import (
     PortfolioRow,
     ReserveRow,
     _parse_pl_float,
