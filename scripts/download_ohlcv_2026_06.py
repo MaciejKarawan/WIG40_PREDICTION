@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/scripts/env python3
 """
 Pobiera/uzupełnia OHLCV ze stooq dla rewizji czerwcowej 2026 (ranking 2026-05-22).
 

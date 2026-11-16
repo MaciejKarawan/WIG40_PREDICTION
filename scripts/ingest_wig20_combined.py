@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/scripts/env python3
 """
 Ingest WIG20 z combined PDF (`Portfele_WIG20_mWIG40_sWIG80_WIG30_*.pdf`) do parquet.
 
@@ -7,7 +7,7 @@ WIG20 — tylko combined. Standardowy scraper łapie tylko 'Portfel indeksu <X>'
 a combined ma 'Portfel indeksów <X> i <X>TR' — stąd dedykowany ingest dla page 0.
 
 Uruchomienie:
-    .venv/Scripts/python.exe bin/ingest_wig20_combined.py
+    .venv/Scripts/python.exe scripts/ingest_wig20_combined.py
 """
 
 from __future__ import annotations
@@ -22,7 +22,7 @@ import pdfplumber
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from bin.gpw_benchmark_scraper import (
+from scripts.gpw_benchmark_scraper import (
     PortfolioRow,
     ReserveRow,
     RE_MAIN_ROW,

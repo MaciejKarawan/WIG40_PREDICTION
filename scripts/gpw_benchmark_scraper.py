@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/scripts/env python3
 """
 GPW Benchmark — Historical Portfolio Scraper & Parser
 =====================================================
@@ -49,7 +49,7 @@ REVISION_DATES = [
     (2025, 3, 21), (2025, 6, 20), (2025, 9, 19),
     # 2025-26 — dla tych rewizji GPW Benchmark publikuje tylko combined PDF
     # (WIG20+mWIG40+sWIG80+WIG30 razem). Scraper parsuje tylko osobne WIG;
-    # mWIG40 ingestowany osobno z CSV przez bin/ingest_mwig40_csv.py.
+    # mWIG40 ingestowany osobno z CSV przez scripts/ingest_mwig40_csv.py.
     (2025, 12, 19),
     (2026, 3, 20),
 ]

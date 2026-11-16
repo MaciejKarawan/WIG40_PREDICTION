@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/scripts/env python3
 """
 Faza 2 — walidacja rozbieżności cen stooq (adjusted) vs PDF (raw) dla WIG 2026-03
 na dzień rankingu 2026-02-27.

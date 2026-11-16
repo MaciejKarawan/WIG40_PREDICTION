@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/scripts/env python3
 """Build a ticker/ISIN sector map from Bankier.pl company profile pages.
 
 Input:

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/scripts/env python3
 """Reality check S1 — czy sygnal ery dev jest realny? (spec: reports/research_log.md, wpis PLAN 2026-07-02)
 
 Testy (reguly decyzyjne zamrozone PRZED runem):
@@ -14,6 +14,7 @@ Wyjscie: output/signal_check/*.csv
 """
 
 from __future__ import annotations
+import os
 
 import io
 import math
@@ -158,7 +159,7 @@ def wilson_ci(k: int, n: int, z: float = 1.96) -> tuple[float, float]:
 # T3 — bench TR ze stooq
 # ---------------------------------------------------------------------------
 
-LOCAL_BENCH_DIR = Path(r"C:\Users\User\Zeszyt\MOMENTUM\main\data\GPW\d_pl_txt\data\daily\pl\wse indices")
+LOCAL_BENCH_DIR = Path(os.environ.get("MWIG_BENCH_DIR", str(ROOT / "data" / "raw" / "benchmarks")))
 
 
 def fetch_bench(symbol: str, d1: date, d2: date) -> pd.DataFrame | None:

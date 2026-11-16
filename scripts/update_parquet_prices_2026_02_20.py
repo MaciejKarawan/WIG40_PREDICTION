@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/scripts/env python3
 """
 Aktualizuje kolumnę `price` w index_portfolios.parquet dla WIG 2026-03-20:
 zamiana ceny snapshotowej (2026-02-27) na close z 2026-02-20 (data rankingu wg metodyki GPW).

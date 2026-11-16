@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/scripts/env python3
 """Etap C4+C5 — panel replikowanego rankingu *as-of* (revision x prediction_date x spolka).
 
 Cel:
@@ -50,7 +50,7 @@ NEAR_THRESHOLD_HIGH = 95
 TRADING_DAYS_PER_YEAR = 252
 
 # mWIG40 ranking_date = 3. piatek lutego itd.; WIG PDF ma date tydzien pozniej.
-# Override spojny z bin/build_mwig40_eda_panels.py.
+# Override spojny z scripts/build_mwig40_eda_panels.py.
 ANCHOR_OVERRIDES = {"2026-03-20": "2026-02-20"}
 
 

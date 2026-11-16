@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/scripts/env python3
 """
 Re-walidacja cen po dostarczeniu manualnych danych unadjusted (data/manual/unadjusted_2026_03/).
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/scripts/env python3
 """
 Analiza przejść do mWIG40 na bazie historycznych portfeli GPW Benchmark.
 

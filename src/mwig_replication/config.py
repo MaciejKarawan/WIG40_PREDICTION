@@ -14,7 +14,7 @@ from pathlib import Path
 # ---------------------------------------------------------------------------
 
 # Korzeń projektu — wykrywany dynamicznie (2 poziomy w górę od tego pliku)
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 # Input
 INDEX_PORTFOLIOS_PATH = PROJECT_ROOT / "output" / "wig_history" / "index_portfolios.parquet"

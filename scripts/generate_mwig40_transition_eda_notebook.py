@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/scripts/env python3
 """Generate the mWIG40 transition EDA notebook."""
 
 from __future__ import annotations

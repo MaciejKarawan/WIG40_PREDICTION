@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/scripts/env python3
 """
 Pobiera dane OHLCV ze stooq dla dowolnej rewizji.
 
