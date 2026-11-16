@@ -19,14 +19,20 @@ Stocks that join an index attract passive inflows. If the next revision can be p
 - Scraped and parsed GPW Benchmark PDFs: **19 revisions (2021-03 → 2025-09) × 4 indices** (WIG, WIG20, mWIG40, sWIG80) plus reserve lists
 - Implemented the ranking `R(i) = 0.4·s_T + 0.6·s_C` (turnover and free-float market-cap shares), eligibility filters (free float, 3-month trading, liquidity) and the entry/maintenance buffers
 - Mapped **5 methodological epochs** by tracing regulation changes (2022-03, 2023-06, 2024-06, 2025-01) and extracted a changelog from the rulebooks
-- **≈90% recall (36/40)** reconstructing the mWIG40 composition for the March 2025 revision, with a per-stock diagnosis of every miss
+- **100% recall (40/40)** reconstructing the mWIG40 composition for the March 2026 revision. An earlier attempt on March 2025 reached 90% (36/40) and exposed the data gaps that were then fixed. Both validated revisions fall under the current rules (epoch 4)
 - Diagnosed the data issues that limit full replication: adjusted vs. raw prices (e.g. a 10:1 split that the vendor back-propagates), inconsistent ranking dates across GPW PDFs, and capped vs. raw free-float packages
 
 ## 2. Forward prediction
 
 The same modules (`filters`, `ranking`, `buffer`) run on a live universe scraped from biznesradar.pl (326 WIG stocks) with incremental OHLCV downloads. This produced a forecast of the June 2026 revision before its announcement, with a full funnel: 326 → 301 after the minimum-turnover (MWO) filter → 225 after the last-quartile filter → predicted 40 constituents, including expected entries and exits and a generated diagnostic notebook.
 
-## 3. Is there a tradable signal? A pre-registered reality check
+## 3. Statistical predictors of index entry
+
+Across 21 revisions, a company's strength **relative to its sector median over 240–360 sessions** was the strongest single predictor. Shortlisting the top 10% raises the density of actual entrants about **5×** (lift ≈ 5). A composite of four binary components reached 70% precision (lift 16.5). Every component is observable before the ranking date: being on the previous reserve list, plus sector-relative momentum, volatility and turnover. The precision comes from only 10 observations, so it is treated as a lead rather than a finished estimator.
+
+📄 [Replication and predictor analysis report (PDF, Polish, 18 pages)](reports/mwig40_replication_report.pdf)
+
+## 4. Is there a tradable signal? A pre-registered reality check
 
 Exploratory work (EDA on 21 revisions and 45 entries, with >1,700 configurations examined) suggested that a 4-component price-based score could anticipate entrants up to 8 months ahead. Before confirming it, the test specification and decision rules were **frozen in a research log**, and the tests were then run:
 
