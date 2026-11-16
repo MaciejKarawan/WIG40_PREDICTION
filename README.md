@@ -1,6 +1,6 @@
-# mWIG40 index inclusion research
+# mWIG40 Prediction
 
-Install Python 3.11+ and `python -m pip install -e .`. The repository retains its historical WIG40_PREDICTION name; the target index is mWIG40.
+Install Python 3.11+ and `python -m pip install -e .`. Research on mWIG40 index composition, historical replication and prediction.
 
 - `src/mwig_replication/`: active ranking, filtering, replication and prediction package.
 - `scripts/`: ingestion, validation, EDA and backtest entry points (`python -m scripts.<name>` from the root).
